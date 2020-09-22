@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/own_login_bg">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:text="请选择登陆方式"
+    android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="微信登陆"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/own_wechat_login_bg"
+        android:id="@+id/btn_login_wechat"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="手机号登陆"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/own_phone_login_bg"
+        android:id="@+id/btn_login_phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册一个账号"
+        android:layout_marginTop="10dp"
+        android:textColor="#F44336"
+        android:id="@+id/txt_register"/>
+</LinearLayout>

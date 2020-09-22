@@ -1,0 +1,3 @@
+include ':mylibrary'
+include ':app'
+rootProject.name = "0914_shop"
